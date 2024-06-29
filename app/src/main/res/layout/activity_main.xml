@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="민주의 Personal Diary"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:textColor="#333333"
+        android:paddingBottom="24dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/contact_management_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:text="연락처 관리"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="#6200EE"
+            android:padding="16dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/web_search_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:text="인터넷 검색"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="#6200EE"
+            android:padding="16dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/phone_status_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:text="폰 상태 검색"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="#6200EE"
+            android:padding="16dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/about_author_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:text="저자 소개"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="#6200EE"
+            android:padding="16dp"
+            android:gravity="center"/>
+    </LinearLayout>
+</LinearLayout>
